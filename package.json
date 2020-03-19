@@ -43,7 +43,7 @@
     "gulp-rename": "~2.0.0",
     "gulp-uglify": "~3.0.2",
     "gulp-util": "~3.0.8",
-    "jquery": "~2.1",
+    "jquery": "~3.4",
     "jquery-mousewheel": "~3.1",
     "underscore": "~1.6",
     "vinyl-source-stream": "~0.1"
