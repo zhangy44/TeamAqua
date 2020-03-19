@@ -5,7 +5,7 @@ Big-Co Studio Project
 
 ## Installing
 
-    git clone https://github.com/volkhin/RoadTrafficSimulator
+    git clone https://github.com/zhangy44/TeamAqua.git
     cd RoadTrafficSimulator
     npm install
 
