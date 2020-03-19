@@ -1,0 +1,51 @@
+{
+  "name": "trafic-simulator",
+  "version": "0.0.1",
+  "description": "Simulator of road networks with signal-controlled intersections",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": {
+    "name": "Artem Volkhin",
+    "email": "artem@volkhin.com",
+    "url": "http://volkhin.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/volkhin/RoadTrafficSimulator.git"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "/coffee/",
+      "loader": "./node-loaders/coffee-script",
+      "data-cover-reporter-options": {
+        "shortnames": true
+      }
+    }
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "blanket": "~1.1",
+    "browserify": "~4.1",
+    "chai": "~1.9",
+    "chroma-js": "^0.5.7",
+    "coffeescript": "~2.5.1",
+    "coffeeify": "~3.0.1",
+    "dat-gui": "~0.5",
+    "gulp": "~3.9.1",
+    "gulp-coffee": "~3.0.3",
+    "gulp-coffeelint": "~0.6.0",
+    "gulp-concat": "~2.6.1",
+    "gulp-mocha": "~7.0.2",
+    "gulp-notify": "~3.2.0",
+    "gulp-plumber": "~1.2.1",
+    "gulp-rename": "~2.0.0",
+    "gulp-uglify": "~3.0.2",
+    "gulp-util": "~3.0.8",
+    "jquery": "~2.1",
+    "jquery-mousewheel": "~3.1",
+    "underscore": "~1.6",
+    "vinyl-source-stream": "~0.1"
+  }
+}
