@@ -5,6 +5,9 @@ $(document).ready(function () {
     //     console.log(`Car Number ${carNumber}`)
     //     $(this).html(`Car Number ${carNumber}`)
     // })
+    setInterval(function () {
+        $("#carNumberDisplay").html(world.carsNumber);
+    },500);
     $(document).keydown(function(event) {
 
         var key = (event.keyCode ? event.keyCode : event.which);
