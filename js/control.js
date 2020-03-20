@@ -22,7 +22,7 @@ $(document).ready(function () {
     })
     function adjustCarNumber(isUp){
         let increment = 10;
-        let max = 200;
+        let max = 1000;
         let min = 10;
         let currentCarsNumber = world.carsNumber;
         if(isUp){

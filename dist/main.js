@@ -43,7 +43,7 @@ $(function() {
   guiVisualizer.add(visualizer, 'debug').listen();
   guiVisualizer.add(visualizer.zoomer, 'scale', 0.1, 2).listen();
   guiVisualizer.add(visualizer, 'timeFactor', 0.1, 10).listen();
-  guiWorld.add(world, 'carsNumber').min(0).max(200).step(1).listen();
+  guiWorld.add(world, 'carsNumber').min(0).max(1000).step(1).listen();
   guiWorld.add(world, 'instantSpeed').step(0.00001).listen();
   return gui.add(settings, 'lightsFlipInterval', 0, 400, 0.01).listen();
 });
@@ -1625,11 +1625,11 @@ var settings;
 
 settings = {
   colors: {
-    background: '#97a1a1',
+    background: '#DBE9EE',
     redLight: 'hsl(0, 100%, 50%)',
     greenLight: '#85ee00',
-    intersection: '#586970',
-    road: '#586970',
+    intersection: '#C0D6DF',
+    road: '#C0D6DF',
     roadMarking: '#bbb',
     hoveredIntersection: '#3d4c53',
     tempRoad: '#aaa',

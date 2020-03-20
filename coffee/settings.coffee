@@ -2,11 +2,11 @@
 
 settings =
   colors:
-    background: '#97a1a1'
+    background: '#DBE9EE'
     redLight: 'hsl(0, 100%, 50%)'
     greenLight: '#85ee00'
-    intersection: '#586970'
-    road: '#586970'
+    intersection: '#C0D6DF'
+    road: '#C0D6DF'
     roadMarking: '#bbb'
     hoveredIntersection: '#3d4c53'
     tempRoad: '#aaa'
